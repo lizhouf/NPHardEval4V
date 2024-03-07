@@ -1,0 +1,35 @@
+[
+    {
+        "output": {
+            "Feasible": "YES",
+            "TotalValue": "18",
+            "SelectedItemIds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+            ]
+        },
+        "correctness": [
+            false,
+            "Item 4 does not exist."
+        ],
+        "reasoning": "The knapsack capacity is 20, and the items have a total weight of 100. To maximize the total value, we need to select items that have a combined value greater than or equal to 20.\n We start by selecting the item with the highest value, which is item 1 with a value of 10. Next, we select the item with the second-highest value, which is item 2 with a value of 8. Since the total weight of these two items is 18, we can add one more item to reach the knapsack capacity of 20.\n We choose the item with the third-highest value, which is item 3 with a value of 6. The total weight of the selected items is now 24, which exceeds the knapsack capacity of 20. Therefore, we cannot select all the items that maximize the total value.\n However, we can still select the items that have the highest total value, which are items 1, 2, and 3. The total value of these items is 24, which is the maximum value that can be achieved with the given capacity."
+    }
+]

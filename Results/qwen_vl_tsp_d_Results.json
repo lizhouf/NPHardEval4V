@@ -1,0 +1,82 @@
+[
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": "1. City 1: Distance from city 1 to city 2 is 2, and the distance from city 2 to city 3 is 1. So, the total distance from city 1 to city 3 is 3.\n2. City 2: Distance from city 2 to city 3 is 1, and the distance from city 3 to city 4 is 2. So, the total distance from city 2 to city 4 is 3.\n3. City 3: Distance from city 3 to city 4 is 2, and the distance from city 4 to city 1 is 2. So, the total distance from city 3 to city 1 is 4.\n4. City 4: Distance from city 4 to city 1 is 2, and the distance from city 1 to city 2 is 2. So, the total distance from city 4 to city 2 is 4."
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    },
+    {
+        "output": "",
+        "correctness": [
+            false,
+            "Output format incorrect"
+        ],
+        "reasoning": ""
+    }
+]

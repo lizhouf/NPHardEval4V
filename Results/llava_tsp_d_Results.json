@@ -1,0 +1,22 @@
+[
+    {
+        "output": {
+            "Feasible": "YES"
+        },
+        "correctness": [
+            true,
+            "Feasible: 24.73 <= 30.030000000000005"
+        ],
+        "reasoning": "The distances between the cities are 0.0, 0.0, 0.0, and 0.0. Since the salesman can travel to each city without any distance constraints, it is possible to visit all the cities and return to the starting city with a total distance less than 30.030000000000005."
+    },
+    {
+        "output": {
+            "Feasible": "YES"
+        },
+        "correctness": [
+            true,
+            "Feasible: 18.34 <= 22.095"
+        ],
+        "reasoning": "The distances between the cities are 0.0, 0.0, 0.0, and 0.0. Since all distances are 0, it is possible for the salesman to visit each city at least once and return to the starting city with the total distance less than 22.095."
+    }
+]

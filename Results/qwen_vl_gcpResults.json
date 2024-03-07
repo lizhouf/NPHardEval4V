@@ -1,0 +1,52 @@
+[
+    {
+        "output": "0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_1', 3:'COLOR_1', 4:'COLOR_1', 5:'COLOR_1', 6:'COLOR_1'",
+        "correctness": false,
+        "reasoning": "\n1 <label>RED</label>\n2 <label>RED</label>\n3 <label>RED</label>\n4 <label>RED</label>\n5 <label>RED</label>\n6 <label>RED</label>\n"
+    },
+    {
+        "output": "",
+        "correctness": false,
+        "reasoning": ""
+    },
+    {
+        "output": "0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_3', 3:'COLOR_4', 4:'COLOR_5', 5:'COLOR_6', 6:'COLOR_7'",
+        "correctness": false,
+        "reasoning": "\n#1 is connected to #2 and #3, so #1 should be colored by A. \n#2 is connected to #3 and #4, so #2 should be colored by B. \n#3 is connected to #4 and #5, so #3 should be colored by C. \n#4 is connected to #5 and #6, so #4 should be colored by D. \n#5 is connected to #6, so #5 should be colored by E. \n#6 is disconnected from the rest of the graph, so it should be colored by F. \n"
+    },
+    {
+        "output": "0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_3', 3:'COLOR_4', 4:'COLOR_5', 5:'COLOR_6', 6:'COLOR_7'",
+        "correctness": false,
+        "reasoning": "\n1 <label>1</label> <color>1</color>\n2 <label>2</label> <color>2</color>\n3 <label>3</label> <color>3</color>\n4 <label>4</label> <color>4</color>\n5 <label>5</label> <color>5</color>\n6 <label>6</label> <color>6</color>\n"
+    },
+    {
+        "output": "{0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_3', 3:'COLOR_4', 4:'COLOR_5', 5:'COLOR_6', 6:'COLOR_7'}",
+        "correctness": false,
+        "reasoning": "Color 1: 1, 2, 3, 4, 5, 6. Color 2: 1, 2, 3, 4, 5, 6. Color 3: 1, 2, 3, 4, 5, 6."
+    },
+    {
+        "output": "",
+        "correctness": false,
+        "reasoning": ""
+    },
+    {
+        "output": "0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_1', 3:'COLOR_2', 4:'COLOR_1', 5:'COLOR_1', 6:'COLOR_2'",
+        "correctness": false,
+        "reasoning": "Color 1: 1, 2, 5, 6. Color 2: 3, 4"
+    },
+    {
+        "output": "",
+        "correctness": false,
+        "reasoning": ""
+    },
+    {
+        "output": "\n0:'COLOR_1', 1:'COLOR_2', 2:'COLOR_3', 3:'COLOR_4', 4:'COLOR_5', 5:'COLOR_6', 6:'COLOR_7'\n",
+        "correctness": false,
+        "reasoning": "\n1\n3\n4\n6\n2\n5\n"
+    },
+    {
+        "output": "",
+        "correctness": false,
+        "reasoning": ""
+    }
+]
