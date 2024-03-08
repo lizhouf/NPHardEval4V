@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from model import *
+from importlib import import_module
 
 def parse_xml_to_dict(xml_string: str):
     """_summary_
@@ -34,6 +35,7 @@ def run_opensource_models(args, MODEL, all_txtprompts, all_imgprompts):
         if args.tuned_model_dir:
             output = run_kosmos2(all_txtprompts, all_imgprompts, model_name=args.tuned_model_dir)
         else:
+
             output = run_kosmos2(all_txtprompts, all_imgprompts)
     elif MODEL.startswith('fuyu_8b'):
         output = run_fuyu_8b(all_txtprompts, all_imgprompts)

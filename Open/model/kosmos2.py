@@ -4,11 +4,9 @@ from PIL import Image
 from transformers import AutoProcessor, AutoModelForVision2Seq
 # import Open.prompts as prompts
 
-with open('model.txt', 'r') as f:
-        model_content = f.read()
-if model_content == 'kosmos2':
-  model = AutoModelForVision2Seq.from_pretrained("microsoft/kosmos-2-patch14-224")
-  processor = AutoProcessor.from_pretrained("microsoft/kosmos-2-patch14-224", device='cuda:0')
+
+model = AutoModelForVision2Seq.from_pretrained("microsoft/kosmos-2-patch14-224")
+processor = AutoProcessor.from_pretrained("microsoft/kosmos-2-patch14-224", device='cuda:0')
     
 
 def run_kosmos2(prompt, imgPATH):
