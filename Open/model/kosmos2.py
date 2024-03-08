@@ -10,9 +10,6 @@ processor = AutoProcessor.from_pretrained("microsoft/kosmos-2-patch14-224", devi
     
 
 def run_kosmos2(prompt, imgPATH):
-    # model = AutoModelForVision2Seq.from_pretrained("microsoft/kosmos-2-patch14-224")
-    # processor = AutoProcessor.from_pretrained("microsoft/kosmos-2-patch14-224")
-    # url = "https://huggingface.co/microsoft/kosmos-2-patch14-224/resolve/main/snowman.png"
 
     image = Image.open(imgPATH).convert('RGB')
     # image.save("new_image.jpg")

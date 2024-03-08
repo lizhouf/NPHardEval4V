@@ -35,8 +35,8 @@ def run_opensource_models(args, MODEL, all_txtprompts, all_imgprompts):
         if args.tuned_model_dir:
             output = run_kosmos2(all_txtprompts, all_imgprompts, model_name=args.tuned_model_dir)
         else:
-
-            output = run_kosmos2(all_txtprompts, all_imgprompts)
+            runmodel = import_module('model.kosmos2')
+            output = runmodel.run_kosmos2(all_txtprompts, all_imgprompts)
     elif MODEL.startswith('fuyu_8b'):
         output = run_fuyu_8b(all_txtprompts, all_imgprompts)
     elif MODEL.startswith('qwen_vl'):
